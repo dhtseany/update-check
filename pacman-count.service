@@ -1,0 +1,6 @@
+[Unit]
+Description=Daily Backup Check for RMM Platforms
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/sh /usr/bin/update-check/pacman-count.sh
